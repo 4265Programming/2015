@@ -22,12 +22,21 @@
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
+			<Item Name="AutonModes.ctl" Type="VI" URL="../AutonModes.ctl"/>
 		</Item>
 		<Item Name="Shared" Type="Folder" URL="../../Shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Auto Configs" Type="Folder" URL="../../../../../../Desktop/Auto Configs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="AutonConfig Files" Type="Folder">
+			<Item Name="RemoveExtraLines.vi" Type="VI" URL="../RemoveExtraLines.vi"/>
+			<Item Name="Sensifier.vi" Type="VI" URL="../Sensifier.vi"/>
+			<Item Name="ExpressionBreaker.vi" Type="VI" URL="../ExpressionBreaker.vi"/>
+			<Item Name="StringDecoder.vi" Type="VI" URL="../StringDecoder.vi"/>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="DashAutonButtons.ctl" Type="VI" URL="../DashAutonButtons.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -199,6 +208,9 @@
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="SD Write Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Value.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="MGI String Pattern Match Exists.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI String Pattern Match Exists.vi"/>
 			</Item>
 			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../Interpolate RGB Color.vi"/>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
