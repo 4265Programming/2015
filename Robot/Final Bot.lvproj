@@ -125,6 +125,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Convert To Enum Array.vi" Type="VI" URL="../Convert To Enum Array.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="GetMLP.vi" Type="VI" URL="../GetMLP.vi"/>
+			<Item Name="Grabber Manager.vi" Type="VI" URL="../Grabber Manager.vi"/>
 			<Item Name="LIDAR Panning.vi" Type="VI" URL="../../Driver Station/LIDAR Panning.vi"/>
 			<Item Name="Lift Manager.vi" Type="VI" URL="../Lift Manager.vi"/>
 			<Item Name="Pnumatic Control VI.vi" Type="VI" URL="../Pnumatic Control VI.vi"/>
