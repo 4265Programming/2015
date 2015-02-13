@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Auton VI&apos;s" Type="Folder">
 			<Item Name="Auton-InterpretDataString.vi" Type="VI" URL="../Auton-InterpretDataString.vi"/>
+			<Item Name="Auton-MoveDistance.vi" Type="VI" URL="../Auton-MoveDistance.vi"/>
 			<Item Name="Auton-MoveToAuto.vi" Type="VI" URL="../Auton-MoveToAuto.vi"/>
 			<Item Name="Auton-MoveToTote.vi" Type="VI" URL="../Auton-MoveToTote.vi"/>
 			<Item Name="Auton-PassiveCan.vi" Type="VI" URL="../Auton-PassiveCan.vi"/>
