@@ -126,6 +126,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Basic Toggle.vi" Type="VI" URL="../Basic Toggle.vi"/>
 			<Item Name="Convert To Enum Array.vi" Type="VI" URL="../Convert To Enum Array.vi"/>
+			<Item Name="Dead Zone.vi" Type="VI" URL="../Dead Zone.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="GetMLP.vi" Type="VI" URL="../GetMLP.vi"/>
 			<Item Name="Grabber Manager.vi" Type="VI" URL="../Grabber Manager.vi"/>
