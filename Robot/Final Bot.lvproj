@@ -118,13 +118,24 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Auton VI&apos;s" Type="Folder">
 			<Item Name="Auton-InterpretDataString.vi" Type="VI" URL="../Auton-InterpretDataString.vi"/>
+			<Item Name="Auton-Manipulate.vi" Type="VI" URL="../Auton-Manipulate.vi"/>
 			<Item Name="Auton-MoveDistance.vi" Type="VI" URL="../Auton-MoveDistance.vi"/>
 			<Item Name="Auton-MoveTime.vi" Type="VI" URL="../Auton-MoveTime.vi"/>
 			<Item Name="Auton-MoveToAuto.vi" Type="VI" URL="../Auton-MoveToAuto.vi"/>
 			<Item Name="Auton-MoveToTote.vi" Type="VI" URL="../Auton-MoveToTote.vi"/>
-			<Item Name="Auton-PassiveCan.vi" Type="VI" URL="../Auton-PassiveCan.vi"/>
 			<Item Name="Auton-Pickup.vi" Type="VI" URL="../Auton-Pickup.vi"/>
 			<Item Name="Auton-SetDown.vi" Type="VI" URL="../Auton-SetDown.vi"/>
+			<Item Name="Auton-ZeroEverything.vi" Type="VI" URL="../Auton-ZeroEverything.vi"/>
+		</Item>
+		<Item Name="Managers" Type="Folder">
+			<Item Name="ControlerVibrationManager.vi" Type="VI" URL="../ControlerVibrationManager.vi"/>
+			<Item Name="Drivetrain Manager.vi" Type="VI" URL="../Drivetrain Manager.vi"/>
+			<Item Name="Grabber Manager.vi" Type="VI" URL="../Grabber Manager.vi"/>
+			<Item Name="Lift Manager.vi" Type="VI" URL="../Lift Manager.vi"/>
+			<Item Name="PnumaticManager.vi" Type="VI" URL="../PnumaticManager.vi"/>
+			<Item Name="Simple Grabber Manager.vi" Type="VI" URL="../Simple Grabber Manager.vi"/>
+			<Item Name="Simple Lift Manager.vi" Type="VI" URL="../Simple Lift Manager.vi"/>
+			<Item Name="TalonStateManager.vi" Type="VI" URL="../TalonStateManager.vi"/>
 		</Item>
 		<Item Name="Shared" Type="Folder" URL="../../Shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -132,19 +143,14 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Basic Toggle.vi" Type="VI" URL="../Basic Toggle.vi"/>
 			<Item Name="CAA.vi" Type="VI" URL="../../Driver Station/CAA.vi"/>
-			<Item Name="ControlerVibrationManager.vi" Type="VI" URL="../ControlerVibrationManager.vi"/>
+			<Item Name="Convert Distance to Encoder.vi" Type="VI" URL="../Convert Distance to Encoder.vi"/>
 			<Item Name="Convert To Enum Array.vi" Type="VI" URL="../Convert To Enum Array.vi"/>
 			<Item Name="Dead Zone.vi" Type="VI" URL="../Dead Zone.vi"/>
 			<Item Name="DriveRamp.vi" Type="VI" URL="../DriveRamp.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="GetMLP.vi" Type="VI" URL="../GetMLP.vi"/>
-			<Item Name="Grabber Manager.vi" Type="VI" URL="../Grabber Manager.vi"/>
 			<Item Name="LIDAR Panning.vi" Type="VI" URL="../../Driver Station/LIDAR Panning.vi"/>
-			<Item Name="Lift Manager.vi" Type="VI" URL="../Lift Manager.vi"/>
-			<Item Name="Pnumatic Control VI.vi" Type="VI" URL="../Pnumatic Control VI.vi"/>
 			<Item Name="Pulse Former.vi" Type="VI" URL="../Pulse Former.vi"/>
-			<Item Name="Simple Grabber Manager.vi" Type="VI" URL="../Simple Grabber Manager.vi"/>
-			<Item Name="Simple Lift Manager.vi" Type="VI" URL="../Simple Lift Manager.vi"/>
 			<Item Name="Zero Grabber.vi" Type="VI" URL="../Zero Grabber.vi"/>
 			<Item Name="Zero Lift.vi" Type="VI" URL="../Zero Lift.vi"/>
 		</Item>
@@ -331,6 +337,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
@@ -823,11 +830,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Matthew/Documents/LabVIEW Data/2015 Code/Robot/Builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -837,7 +843,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DB01CD21-4447-4671-A00A-D774E7A6FDE1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EEC108FD-3592-431D-9939-260385B971B0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>

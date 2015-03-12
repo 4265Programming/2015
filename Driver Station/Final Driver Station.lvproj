@@ -19,6 +19,7 @@
 			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi"/>
 			<Item Name="Panel Resized.vi" Type="VI" URL="../Panel Resized.vi"/>
 			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
+			<Item Name="SetupAutonConfigFiles.vi" Type="VI" URL="../../Robot/SetupAutonConfigFiles.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
@@ -27,14 +28,16 @@
 		<Item Name="Shared" Type="Folder" URL="../../Shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Auto Configs" Type="Folder" URL="../../../../../../Desktop/Auto Configs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="AutonConfig Files" Type="Folder">
 			<Item Name="RemoveExtraLines.vi" Type="VI" URL="../RemoveExtraLines.vi"/>
 			<Item Name="Sensifier.vi" Type="VI" URL="../Sensifier.vi"/>
 			<Item Name="ExpressionBreaker.vi" Type="VI" URL="../ExpressionBreaker.vi"/>
 			<Item Name="StringDecoder.vi" Type="VI" URL="../StringDecoder.vi"/>
+		</Item>
+		<Item Name="Auto Config" Type="Folder">
+			<Item Name="Custom1.txt" Type="Document" URL="../../../../../../Desktop/Auto Configs/Custom1.txt"/>
+			<Item Name="Preset1.txt" Type="Document" URL="../../../../../../Desktop/Auto Configs/Preset1.txt"/>
+			<Item Name="Preset2.txt" Type="Document" URL="../../../../../../Desktop/Auto Configs/Preset2.txt"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
