@@ -127,6 +127,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Auton-SetDown.vi" Type="VI" URL="../Auton-SetDown.vi"/>
 			<Item Name="Auton-ZeroEverything.vi" Type="VI" URL="../Auton-ZeroEverything.vi"/>
 		</Item>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Vector.ctl" Type="VI" URL="../Vector.ctl"/>
+		</Item>
 		<Item Name="Managers" Type="Folder">
 			<Item Name="ControlerVibrationManager.vi" Type="VI" URL="../ControlerVibrationManager.vi"/>
 			<Item Name="Drivetrain Manager.vi" Type="VI" URL="../Drivetrain Manager.vi"/>
