@@ -34,10 +34,8 @@
 			<Item Name="ExpressionBreaker.vi" Type="VI" URL="../ExpressionBreaker.vi"/>
 			<Item Name="StringDecoder.vi" Type="VI" URL="../StringDecoder.vi"/>
 		</Item>
-		<Item Name="Auto Config" Type="Folder">
-			<Item Name="Custom1.txt" Type="Document" URL="../../../../../../Desktop/Auto Configs/Custom1.txt"/>
-			<Item Name="Preset1.txt" Type="Document" URL="../../../../../../Desktop/Auto Configs/Preset1.txt"/>
-			<Item Name="Preset2.txt" Type="Document" URL="../../../../../../Desktop/Auto Configs/Preset2.txt"/>
+		<Item Name="Auto Configs" Type="Folder" URL="../../../../../../Desktop/Auto Configs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
