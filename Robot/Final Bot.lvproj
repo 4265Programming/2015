@@ -128,11 +128,13 @@ AddOutputFilter chunkFilter
 			<Item Name="Auton-ZeroEverything.vi" Type="VI" URL="../Auton-ZeroEverything.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="IntakeControl.ctl" Type="VI" URL="../IntakeControl.ctl"/>
 			<Item Name="Vector.ctl" Type="VI" URL="../Vector.ctl"/>
 		</Item>
 		<Item Name="Managers" Type="Folder">
 			<Item Name="ControlerVibrationManager.vi" Type="VI" URL="../ControlerVibrationManager.vi"/>
 			<Item Name="Drivetrain Manager.vi" Type="VI" URL="../Drivetrain Manager.vi"/>
+			<Item Name="IntakeManager.vi" Type="VI" URL="../IntakeManager.vi"/>
 			<Item Name="Lift Manager.vi" Type="VI" URL="../Lift Manager.vi"/>
 			<Item Name="PnumaticManager.vi" Type="VI" URL="../PnumaticManager.vi"/>
 			<Item Name="TalonStateManager.vi" Type="VI" URL="../TalonStateManager.vi"/>
