@@ -128,6 +128,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Auton-ZeroEverything.vi" Type="VI" URL="../Auton-ZeroEverything.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="DriveControl.ctl" Type="VI" URL="../DriveControl.ctl"/>
 			<Item Name="IntakeControl.ctl" Type="VI" URL="../IntakeControl.ctl"/>
 			<Item Name="Vector.ctl" Type="VI" URL="../Vector.ctl"/>
 		</Item>
@@ -818,7 +819,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
