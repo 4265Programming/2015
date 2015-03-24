@@ -150,6 +150,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="GetMLP.vi" Type="VI" URL="../GetMLP.vi"/>
 			<Item Name="Pulse Former.vi" Type="VI" URL="../Pulse Former.vi"/>
+			<Item Name="SinusoidalJSMod.vi" Type="VI" URL="../SinusoidalJSMod.vi"/>
 			<Item Name="Zero Lift.vi" Type="VI" URL="../Zero Lift.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
