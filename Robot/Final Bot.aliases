@@ -1,6 +1,6 @@
 [My Computer]
-My Computer = "127.0.0.1"
+My Computer = "10.10.81.95"
 
 [Target]
-Target = "10.42.65.20"
+Target = "roboRIO-4265.local"
 
