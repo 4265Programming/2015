@@ -124,7 +124,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="DriveControl.ctl" Type="VI" URL="../DriveControl.ctl"/>
-			<Item Name="IntakeControl.ctl" Type="VI" URL="../IntakeControl.ctl"/>
 			<Item Name="RobotMode.ctl" Type="VI" URL="../RobotMode.ctl"/>
 			<Item Name="TeleopDriveGroup.ctl" Type="VI" URL="../TeleopDriveGroup.ctl"/>
 			<Item Name="Vector.ctl" Type="VI" URL="../Vector.ctl"/>
@@ -832,7 +831,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
