@@ -118,9 +118,13 @@ AddOutputFilter chunkFilter
 			<Item Name="Auton-MoveToTote.vi" Type="VI" URL="../Auton-MoveToTote.vi"/>
 			<Item Name="Auton-MoveVector.vi" Type="VI" URL="../Auton-MoveVector.vi"/>
 			<Item Name="Auton-Pickup.vi" Type="VI" URL="../Auton-Pickup.vi"/>
+			<Item Name="Auton-PreQueueActions.vi" Type="VI" URL="../Auton-PreQueueActions.vi"/>
 			<Item Name="Auton-SetDown.vi" Type="VI" URL="../Auton-SetDown.vi"/>
 			<Item Name="Auton-ZeroEverything.vi" Type="VI" URL="../Auton-ZeroEverything.vi"/>
+			<Item Name="SuperAuton-CanBackAndForth.vi" Type="VI" URL="../SuperAuton-CanBackAndForth.vi"/>
 			<Item Name="SuperAuton-CanGrab.vi" Type="VI" URL="../SuperAuton-CanGrab.vi"/>
+			<Item Name="SuperAuton-NoPullOff.vi" Type="VI" URL="../SuperAuton-NoPullOff.vi"/>
+			<Item Name="SuperAuton-SlowCanGrab.vi" Type="VI" URL="../SuperAuton-SlowCanGrab.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="DriveControl.ctl" Type="VI" URL="../DriveControl.ctl"/>
@@ -140,6 +144,9 @@ AddOutputFilter chunkFilter
 			<Item Name="LoggerManager.vi" Type="VI" URL="../LoggerManager.vi"/>
 			<Item Name="PnumaticManager.vi" Type="VI" URL="../PnumaticManager.vi"/>
 			<Item Name="TalonStateManager.vi" Type="VI" URL="../TalonStateManager.vi"/>
+		</Item>
+		<Item Name="Semi-Auton" Type="Folder">
+			<Item Name="SemiAuton-HoldPositionAboveIntake.vi" Type="VI" URL="../SemiAuton-HoldPositionAboveIntake.vi"/>
 		</Item>
 		<Item Name="Shared" Type="Folder" URL="../../Shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -831,7 +838,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">72</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
