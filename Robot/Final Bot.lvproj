@@ -111,6 +111,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Auton VI&apos;s" Type="Folder">
+			<Item Name="Auton-Initialize.vi" Type="VI" URL="../Auton-Initialize.vi"/>
 			<Item Name="Auton-InterpretDataString.vi" Type="VI" URL="../Auton-InterpretDataString.vi"/>
 			<Item Name="Auton-Manipulate.vi" Type="VI" URL="../Auton-Manipulate.vi"/>
 			<Item Name="Auton-MoveTime.vi" Type="VI" URL="../Auton-MoveTime.vi"/>
@@ -118,7 +119,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Auton-MoveToTote.vi" Type="VI" URL="../Auton-MoveToTote.vi"/>
 			<Item Name="Auton-MoveVector.vi" Type="VI" URL="../Auton-MoveVector.vi"/>
 			<Item Name="Auton-Pickup.vi" Type="VI" URL="../Auton-Pickup.vi"/>
-			<Item Name="Auton-PreQueueActions.vi" Type="VI" URL="../Auton-PreQueueActions.vi"/>
 			<Item Name="Auton-SetDown.vi" Type="VI" URL="../Auton-SetDown.vi"/>
 			<Item Name="Auton-ZeroEverything.vi" Type="VI" URL="../Auton-ZeroEverything.vi"/>
 			<Item Name="SuperAuton-CanBackAndForth.vi" Type="VI" URL="../SuperAuton-CanBackAndForth.vi"/>
@@ -145,9 +145,6 @@ AddOutputFilter chunkFilter
 			<Item Name="PnumaticManager.vi" Type="VI" URL="../PnumaticManager.vi"/>
 			<Item Name="TalonStateManager.vi" Type="VI" URL="../TalonStateManager.vi"/>
 		</Item>
-		<Item Name="Semi-Auton" Type="Folder">
-			<Item Name="SemiAuton-HoldPositionAboveIntake.vi" Type="VI" URL="../SemiAuton-HoldPositionAboveIntake.vi"/>
-		</Item>
 		<Item Name="Shared" Type="Folder" URL="../../Shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -156,6 +153,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Basic Toggle.vi" Type="VI" URL="../Basic Toggle.vi"/>
 			<Item Name="Convert Distance to Encoder.vi" Type="VI" URL="../Convert Distance to Encoder.vi"/>
 			<Item Name="Dead Zone.vi" Type="VI" URL="../Dead Zone.vi"/>
+			<Item Name="DecrementIfNotZero.vi" Type="VI" URL="../DecrementIfNotZero.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="GetMLP.vi" Type="VI" URL="../GetMLP.vi"/>
 			<Item Name="Pulse Former.vi" Type="VI" URL="../Pulse Former.vi"/>
