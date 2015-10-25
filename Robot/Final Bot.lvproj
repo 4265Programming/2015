@@ -134,10 +134,11 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Logger" Type="Folder">
 			<Item Name="Logger Init.vi" Type="VI" URL="../Logger/Logger Init.vi"/>
+			<Item Name="LoggerRef Get.vi" Type="VI" URL="../Logger/LoggerRef Get.vi"/>
+			<Item Name="LoggerRef Set.vi" Type="VI" URL="../Logger/LoggerRef Set.vi"/>
 			<Item Name="LoggerRef.ctl" Type="VI" URL="../LoggerRef.ctl"/>
 			<Item Name="LoggerRefnum Compare.vi" Type="VI" URL="../Logger/LoggerRefnum Compare.vi"/>
 			<Item Name="LoggerRefnumGetSet.vi" Type="VI" URL="../Logger/LoggerRefnumGetSet.vi"/>
-			<Item Name="LoggerRefSet.vi" Type="VI" URL="../Logger/LoggerRefSet.vi"/>
 		</Item>
 		<Item Name="Managers" Type="Folder">
 			<Item Name="ControlerVibrationManager.vi" Type="VI" URL="../ControlerVibrationManager.vi"/>
