@@ -134,6 +134,10 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Logger" Type="Folder">
 			<Item Name="Logger Init.vi" Type="VI" URL="../Logger/Logger Init.vi"/>
+			<Item Name="LoggerRef.ctl" Type="VI" URL="../LoggerRef.ctl"/>
+			<Item Name="LoggerRefnum Compare.vi" Type="VI" URL="../Logger/LoggerRefnum Compare.vi"/>
+			<Item Name="LoggerRefnumGetSet.vi" Type="VI" URL="../Logger/LoggerRefnumGetSet.vi"/>
+			<Item Name="LoggerRefSet.vi" Type="VI" URL="../Logger/LoggerRefSet.vi"/>
 		</Item>
 		<Item Name="Managers" Type="Folder">
 			<Item Name="ControlerVibrationManager.vi" Type="VI" URL="../ControlerVibrationManager.vi"/>
@@ -827,7 +831,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">72</Property>
+				<Property Name="Bld_version.build" Type="Int">73</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
