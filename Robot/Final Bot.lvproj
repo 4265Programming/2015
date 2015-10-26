@@ -133,12 +133,24 @@ AddOutputFilter chunkFilter
 			<Item Name="Vector.ctl" Type="VI" URL="../Vector.ctl"/>
 		</Item>
 		<Item Name="Logger" Type="Folder">
-			<Item Name="Logger Init.vi" Type="VI" URL="../Logger/Logger Init.vi"/>
+			<Item Name="Logger Formatting" Type="Folder">
+				<Item Name="ConvertBooleanToString.vi" Type="VI" URL="../Logger/ConvertBooleanToString.vi"/>
+			</Item>
+			<Item Name="LoggerPolyMorphic Stuff" Type="Folder">
+				<Item Name="Logger Log Motor.vi" Type="VI" URL="../Logger/Logger Log Motor.vi"/>
+			</Item>
+			<Item Name="Logger Add Log Element.vi" Type="VI" URL="../Logger/Logger Add Log Element.vi"/>
+			<Item Name="Logger Close.vi" Type="VI" URL="../Logger/Logger Close.vi"/>
+			<Item Name="Logger Open.vi" Type="VI" URL="../Logger/Logger Open.vi"/>
+			<Item Name="Logger Remove Last Log Element.vi" Type="VI" URL="../Logger/Logger Remove Last Log Element.vi"/>
+			<Item Name="LoggerConvertDetailEnumToString.vi" Type="VI" URL="../Logger/LoggerConvertDetailEnumToString.vi"/>
 			<Item Name="LoggerRef Get.vi" Type="VI" URL="../Logger/LoggerRef Get.vi"/>
 			<Item Name="LoggerRef Set.vi" Type="VI" URL="../Logger/LoggerRef Set.vi"/>
-			<Item Name="LoggerRef.ctl" Type="VI" URL="../LoggerRef.ctl"/>
+			<Item Name="LoggerRef.ctl" Type="VI" URL="../Logger/LoggerRef.ctl"/>
 			<Item Name="LoggerRefnum Compare.vi" Type="VI" URL="../Logger/LoggerRefnum Compare.vi"/>
 			<Item Name="LoggerRefnumGetSet.vi" Type="VI" URL="../Logger/LoggerRefnumGetSet.vi"/>
+			<Item Name="LoggingDetail.ctl" Type="VI" URL="../Logger/LoggingDetail.ctl"/>
+			<Item Name="LoggingLevel.ctl" Type="VI" URL="../Logger/LoggingLevel.ctl"/>
 		</Item>
 		<Item Name="Managers" Type="Folder">
 			<Item Name="ControlerVibrationManager.vi" Type="VI" URL="../ControlerVibrationManager.vi"/>
@@ -566,12 +578,14 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
 				<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_FeedbackSelect.ctl"/>
+				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
 				<Item Name="WPI_CANTalonSRX_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Global.vi"/>
 				<Item Name="WPI_CANTalonSRX_GlobalControl.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalControl.ctl"/>
 				<Item Name="WPI_CANTalonSRX_GlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalOps.ctl"/>
 				<Item Name="WPI_CANTalonSRX_GlobalStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalStatus.ctl"/>
 				<Item Name="WPI_CANTalonSRX_MessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_MessageIDs.ctl"/>
 				<Item Name="WPI_CANTalonSRX_Params.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Params.ctl"/>
+				<Item Name="WPI_CANTalonSRX_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Receive.vi"/>
 				<Item Name="WPI_CANTalonSRX_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Send.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetParameter.vi"/>
 				<Item Name="WPI_CompressorClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorClose.vi"/>
